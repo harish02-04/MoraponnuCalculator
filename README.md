@@ -1,18 +1,21 @@
-## Getting Started
+# Moraponnu Calculator
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Overview
 
-## Folder Structure
+The Moraponnu Calculator is a Java-based console application that helps find details about a person's "moraponnu," a Tamil term referring to father's sister's daughter or mother's brother's daughter.
 
-The workspace contains two folders by default, where:
+## Functionality
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+The application allows the user to input details about a person and calculates the details of their moraponnu based on predefined relationships in Tamil culture.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Input
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+The input required for the Moraponnu Calculator includes:
+- Name of the person
+- Gender (Male/Female)
+- Mother,Father,Children,Siblings details
 
-## Dependency Management
+## Output
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+The application outputs the following details about the moraponnu:
+- Moraponnu Name
